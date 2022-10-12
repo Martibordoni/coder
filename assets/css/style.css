@@ -52,11 +52,11 @@ a{
     border-color: aliceblue;
     border-radius: 20px;
     font-family: 'Familjen Grotesk', sans-serif;
-color: aliceblue;
-margin: 5rem;
-padding: 5rem;
-border: 1rem;
-border-color: white;
+    color: aliceblue;
+    margin: 5rem;
+    padding: 5rem;
+    border: 1rem;
+    border-color: white;
 
    
 
@@ -209,6 +209,7 @@ justify-content: space-around;
     ;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .logo
 {
@@ -342,16 +343,17 @@ ul
 .planes {
 display: flex;
 justify-content: space-around;
+padding-bottom: 100px;
 }
 .div-planes-1{
-    margin-top: 10rem;
+    margin-top: 75px;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
 .div-planes-2{
-    margin-top: 17rem;
+    margin-top: 200px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -359,7 +361,7 @@ justify-content: space-around;
 
 .div-planes-3
 {
-    margin-top: 24rem;
+    margin-top: 300px;
     display: flex;
     justify-content: center;
     flex-direction: column;
