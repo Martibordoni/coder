@@ -4,16 +4,13 @@
     font-family: 'Familjen Grotesk';
 }
 
-a {
-    text-decoration: none!important;
+.a {
+    text-decoration: none;
+    color: white;
 }
 
 ul {
     padding-left: 0;
-}
-
-a{
-    color: white!important;
 }
 
 
@@ -348,16 +345,7 @@ a{
         flex-direction: column;
     }
 
-    .circulo-planes {
-        width: 5rem;
-        height: 5rem;
-        border-radius: 50%;
-        background-color: #63afb7;
-        display: flex;
-        justify-content: center;
-        margin: 0;
-
-    }
+   
 
     .fondo {
         background-color: #e6eeef;
@@ -387,12 +375,16 @@ a{
     }
 
     .planes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin: 0;
+        background-color: #324370;
+        border-radius: 50%;
+        width: 125px;
+        height: 125px;
     }
 
-    .circulo-planes {
-        margin: 0;
-    }
 
     .contacto {
         display: flex;
