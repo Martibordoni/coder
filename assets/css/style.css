@@ -174,7 +174,8 @@ ul {
     justify-content: space-around;
   }
   a {
-    text-decoration: none;
+    display: flex;
+    justify-content: center;
   }
   .lista_inicio {
     border: solid white 3px;
@@ -275,15 +276,8 @@ ul {
     justify-content: center;
     flex-direction: column;
   }
-  .fondo {
-    background-color: #e6eeef;
-    width: 10rem;
-    height: 10rem;
-    border-radius: 50%;
-  }
   .turnos {
     display: flex;
-    flex-direction: column;
     justify-content: center;
   }
   .inicio {

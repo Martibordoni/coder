@@ -25,7 +25,8 @@
     }
 
     a {
-        text-decoration: none;
+        display: flex;
+        justify-content: center;
     }
 
     .lista_inicio {
@@ -158,18 +159,8 @@
         flex-direction: column;
     }
 
-   
-
-    .fondo {
-        background-color: #e6eeef;
-        width: 10rem;
-        height: 10rem;
-        border-radius: 50%;
-    }
-
     .turnos {
         display: flex;
-        flex-direction: column;
         justify-content: center;
     }
 
